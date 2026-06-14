@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About | 3D Printer Climate System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="/" class="nav-item">Home</a>
+            <a href="/timeline.html" class="nav-item">Timeline</a>
+            <a href="/about.html" class="nav-item">About</a>
+        </div>
+    </nav>
+
+    <!--info text-->
+    <div class="container">
+
+    <div class="card">
+        <h1>About this project</h1>
+
+        <p>
+            This 3D Printer climate system monitors the temperature and humidity of my 3D printing room in real time using an ESP32 and humiture sensor.
+        </p>
+
+        <p>
+            The collected data is sent to this website where it can be monitored remotely and analyzed for the effect it may have on print quality.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Why I built this</h2>
+
+        <p>
+            I started noticing failed prints due to warping, stringing, and detaching. The overall cause was poor temperature and humidity control.
+        </p>
+
+        <p>
+            Certain filament types react differently to humidity and temperature, especially during long print jobs.
+        </p>
+
+        <p>
+            Being able to monitor these conditions in real-time has allowed me to complete prints with significantly higher success rates.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>System Features</h2>
+
+        <ul>
+            <li>Real-time temperature and humidity monitoring</li>
+            <li>Filament-specific condition analysis</li>
+            <li>Timelines of ambient conditions</li>
+            <li>Remote access through web dashboard</li>
+        </ul>
+    </div>
+
+</div>
+
+    <!--for navbar colouring-->
+    <script src="/app.js"></script>
+</body>
+</html>
